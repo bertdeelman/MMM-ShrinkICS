@@ -1,0 +1,16 @@
+{
+  "name": "mmm-shrinkics",
+  "version": "1.0.0",
+  "description": "MMM-ShrinkICS is a MagicMirror module that dynamically filters a `.ics` calendar file to include only specific events (e.g., today's events) and serves the processed `.ics` file to the default `calendar` module in MagicMirror.",
+  "main": "MMM-ShrinkICS.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "ical": "^0.8.0"
+  }
+}
